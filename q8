@@ -1,0 +1,9 @@
+import matplotlib.pyplot as pl
+os = ["CS","Mathematics","IP","EP","Legal studies"]
+stu = [45,120,50,20,10]
+pl.title("Analysics of students in optional subjects")
+pl.xlabel("Optional subjects")
+pl.ylabel("Number of students")
+
+pl.plot(os,stu,'b',marker='D',markersize = 10, linestyle = 'solid')
+pl.show()
