@@ -1,0 +1,19 @@
+import pandas as pd
+
+dict ={"Name":["Amit","Ashu","Abhinav","Ravi","Manav","Dhruv","Priya"],'Class':[10,9,9,10,10,9,10],"Gender":['M','F','M','M','F','F','M'],'Marks':[75,95,86,57,37,76,55]}
+df = pd.DataFrame(dict)
+df.to_csv("student.csv",index=False)
+
+
+#Reading first three lines of the database
+df.head(3)
+
+df.loc[3]
+
+
+
+df.loc[len(df)]=["Ankit",9,'M',88]
+df
+
+
+df.drop("Gender",axis=1)
