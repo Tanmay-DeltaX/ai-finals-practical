@@ -1,0 +1,8 @@
+import matplotlib.pyplot as pl
+a = [1,2,3,4,5,6,7]
+b=[2000,2800,3000,2500,2300,2500,1000]
+pl.xlabel("Days")
+pl.ylabel("Ticket sold")
+pl.title("Analysis of ticket sold")
+pl.bar(a,b,color='c')
+pl.show()
