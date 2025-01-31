@@ -1,0 +1,5 @@
+import statistics
+
+print("Mean of the height ",statistics.mean(height))
+print("Median of the height ",statistics.median(height))
+print("Mode of the height ",statistics.mode(height))
