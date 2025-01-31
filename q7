@@ -1,0 +1,5 @@
+import statistics
+
+lst =[30,22,25,18,24]
+print("Vareiance of the data is ", statistics.variance(lst))
+print("Standard deviation of the data is ",statistics.stdev(lst))
